@@ -91,7 +91,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-min="10" et-al-use-first="10">
+  <bibliography et-al-min="11" et-al-use-first="10">
     <sort>
       <key macro="author"/>
       <key variable="author" sort="ascending"/>
@@ -125,7 +125,6 @@
                 <text variable="container-title" suffix=" " form="short" strip-periods="true"/>
                 <text variable="volume" suffix=":"/>
                 <text variable="page" suffix="."/>
-                <text prefix=" doi: " variable="DOI"/>
               </group>
             </else>
           </choose>

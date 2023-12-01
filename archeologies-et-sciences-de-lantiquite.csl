@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" page-range-format="expanded" default-locale="fr-FR">
   <info>
-    <title>Archéologies et Sciences de l'Antiquité (French)</title>
+    <title>Archéologies et Sciences de l'Antiquité (Français)</title>
     <title-short>ArScAn</title-short>
     <id>http://www.zotero.org/styles/archeologies-et-sciences-de-lantiquite</id>
     <link href="http://www.zotero.org/styles/archeologies-et-sciences-de-lantiquite" rel="self"/>
@@ -22,10 +22,7 @@
       <term name="cited">op. cit.</term>
       <term name="issue">titre du fascicule </term>
       <term name="presented at">présentation à</term>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="accessed">Consultation: </term>
     </terms>
   </locale>
@@ -605,7 +602,7 @@
       </date>
     </group>
   </macro>
-  <citation et-al-min="15" et-al-use-first="15" initialize-with="." disambiguate-add-year-suffix="true">
+  <citation et-al-min="15" et-al-use-first="14" initialize-with="." disambiguate-add-year-suffix="true">
     <layout suffix="." delimiter=" ; ">
       <choose>
         <if position="ibid-with-locator">
@@ -640,7 +637,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography et-al-min="15" et-al-use-first="15" initialize-with="." hanging-indent="true">
+  <bibliography et-al-min="15" et-al-use-first="14" initialize-with="." hanging-indent="true">
     <sort>
       <key macro="author-bib"/>
       <key variable="issued" sort="descending"/>

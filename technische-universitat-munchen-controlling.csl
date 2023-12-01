@@ -2,7 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="de-DE" version="1.0" demote-non-dropping-particle="sort-only">
   <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>Technische Universität München - Controlling (German)</title>
+    <title>Technische Universität München - Controlling (Deutsch)</title>
     <title-short>TUM Controlling</title-short>
     <id>http://www.zotero.org/styles/technische-universitat-munchen-controlling</id>
     <link href="http://www.zotero.org/styles/technische-universitat-munchen-controlling" rel="self"/>
@@ -23,14 +23,8 @@
       <term name="and"> / </term>
       <term name="retrieved">zugegriffen am:</term>
       <term name="accessed">abgerufen am:</term>
-      <term name="page" form="short">
-        <single>S.</single>
-        <multiple>S.</multiple>
-      </term>
-      <term name="section" form="short">
-        <single>Abs.</single>
-        <multiple>Abs.</multiple>
-      </term>
+      <term name="page" form="short">S.</term>
+      <term name="section" form="short">Abs.</term>
       <term name="editor" form="verb-short">hrsg. von</term>
       <term name="editor" form="short">
         <single>Hrsg.</single>

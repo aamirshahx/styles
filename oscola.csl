@@ -255,7 +255,7 @@
   <!--publication info -->
   <macro name="publisher">
     <choose>
-      <if type="book chapter broadcast personal_communication manuscript paper-conference article-newspaper report legislation motion_picture speech interview thesis entry-encyclopedia webpage" match="any">
+      <if type="book chapter broadcast personal_communication manuscript paper-conference article-newspaper report legislation motion_picture speech interview thesis entry-encyclopedia webpage post-weblog article" match="any">
         <group delimiter=" ">
           <group prefix="(" suffix=")" delimiter=", ">
             <choose>
@@ -296,11 +296,15 @@
                       <text macro="issued-year"/>
                     </group>
                   </else-if>
-                  <else-if type="webpage">
+                  <else-if type="webpage post-weblog" match="any">
                     <text variable="container-title" font-style="italic"/>
                     <text macro="issued-full"/>
                   </else-if>
                   <else-if type="interview" match="any">
+                    <text macro="issued-full"/>
+                  </else-if>
+                  <else-if type="article" match="any">
+                    <text variable="publisher" strip-periods="true"/>
                     <text macro="issued-full"/>
                   </else-if>
                   <else>
@@ -579,8 +583,12 @@
                 <text macro="author-note"/>
                 <text macro="title-short"/>
                 <text macro="looseleaf-note"/>
-                <text variable="first-reference-note-number" prefix="(n " suffix=")"/>
-                <text macro="locator-space"/>
+                <choose>
+                  <if type="legislation" match="none">
+                    <text variable="first-reference-note-number" prefix="(n " suffix=")"/>
+                  </if>
+                </choose>
+                <text macro="locator-basic"/>
               </group>
             </if>
             <else>

@@ -35,7 +35,7 @@ shared_examples "style" do |basename, (filename, path, style, error), in_depende
         end
       end
 
-      unless CITATION_FORMAT_FILTER.include?(basename)
+      unless FILTER['CITATION_FORMAT'].include?(basename)
 
         it 'must define a citation-format (<category citation-format="..."/>)' do
           expect(style.citation_format).not_to be_nil
@@ -58,7 +58,7 @@ shared_examples "style" do |basename, (filename, path, style, error), in_depende
         end
       end
 
-      unless UNUSED_MACROS_FILTER.include?(basename)
+      unless FILTER['UNUSED_MACROS'].include?(basename)
         it "may not have any unused macros" do
           available_macros = style.macros.keys.sort
 
@@ -114,7 +114,7 @@ shared_examples "style" do |basename, (filename, path, style, error), in_depende
                   "expected et-al-min (#{min}) and et-al-use-first (#{first}) to be of same type"
 
                 unless min.nil?
-                  expect(min.to_i).to be >= first.to_i,
+                  expect(min.to_i).to be > first.to_i,
                     "expected et-al-min (#{min}) to be greater than et-al-use-first (#{first})"
                 end
 
@@ -125,7 +125,7 @@ shared_examples "style" do |basename, (filename, path, style, error), in_depende
                   "expected et-al-subsequent-min (#{min}) and et-al-subsequent-use-first (#{first}) to be of same type"
 
                 unless min.nil?
-                  expect(min.to_i).to be >= first.to_i,
+                  expect(min.to_i).to be > first.to_i,
                     "expected et-al-subsequent-min (#{min}) to be greater than et-al-subsequent-use-first (#{first})"
                 end
               end

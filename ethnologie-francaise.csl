@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" demote-non-dropping-particle="sort-only" default-locale="fr-FR" page-range-format="expanded">
   <info>
-    <title>Ethnologie française (French)</title>
+    <title>Ethnologie française (Français)</title>
     <id>http://www.zotero.org/styles/ethnologie-francaise</id>
     <link href="http://www.zotero.org/styles/ethnologie-francaise" rel="self"/>
     <link href="http://www.puf.com/puf_wiki/images/e/e3/Charte_Ethnologie_fran%C3%A7aise.pdf" rel="documentation"/>
@@ -26,10 +26,7 @@
       <term name="accessed">consulté&#160;le</term>
       <term name="no date">sans date</term>
       <term name="translator" form="short">trad.</term>
-      <term name="editor" form="short">
-        <single>dir.</single>
-        <multiple>dir.</multiple>
-      </term>
+      <term name="editor" form="short">dir.</term>
       <term name="no date" form="short">[s.&#160;d.]</term>
     </terms>
   </locale>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" initialize-with-hyphen="true" page-range-format="expanded" demote-non-dropping-particle="sort-only" name-delimiter=" &#8211; " names-delimiter=" &#8211; " delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1" name-form="long" initialize-with=". " sort-separator=", " default-locale="it-IT">
   <info>
-    <title>Pontifical Gregorian University (Italian)</title>
+    <title>Pontifical Gregorian University (Italiano)</title>
     <id>http://www.zotero.org/styles/pontifical-gregorian-university</id>
     <link href="http://www.zotero.org/styles/pontifical-gregorian-university" rel="self"/>
     <link href="http://www.unigre.it" rel="documentation"/>
@@ -22,14 +22,8 @@
       <term name="ibid">Ibid.</term>
       <term name="in">in</term>
       <term name="accessed">accesso</term>
-      <term name="editor">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
-      <term name="editor" form="short">
-        <single>ed.</single>
-        <multiple>ed.</multiple>
-      </term>
+      <term name="editor">ed.</term>
+      <term name="editor" form="short">ed.</term>
       <term name="page-range-delimiter">-</term>
     </terms>
   </locale>
@@ -39,14 +33,8 @@
       <term name="open-quote">«</term>
       <term name="close-quote">»</term>
       <term name="in">dans</term>
-      <term name="editor">
-        <single>éd.</single>
-        <multiple>éd.</multiple>
-      </term>
-      <term name="editor" form="short">
-        <single>éd.</single>
-        <multiple>éd.</multiple>
-      </term>
+      <term name="editor">éd.</term>
+      <term name="editor" form="short">éd.</term>
     </terms>
   </locale>
   <locale xml:lang="es">
@@ -58,14 +46,8 @@
   <locale xml:lang="de">
     <terms>
       <term name="accessed">Zugriff</term>
-      <term name="editor">
-        <single>Hg.</single>
-        <multiple>Hg.</multiple>
-      </term>
-      <term name="editor" form="short">
-        <single>Hg.</single>
-        <multiple>Hg.</multiple>
-      </term>
+      <term name="editor">Hg.</term>
+      <term name="editor" form="short">Hg.</term>
     </terms>
   </locale>
   <locale xml:lang="en">

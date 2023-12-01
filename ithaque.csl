@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-CA" version="1.0" demote-non-dropping-particle="never">
   <info>
-    <title>Ithaque (French - Canada)</title>
+    <title>Ithaque (Français - Canada)</title>
     <id>http://www.zotero.org/styles/ithaque</id>
     <link href="http://www.zotero.org/styles/ithaque" rel="self"/>
     <link href="http://www.zotero.org/styles/infoclio-fr-nocaps" rel="template"/>
@@ -24,15 +24,9 @@
       <term name="ordinal-03">&#7497;</term>
       <term name="ordinal-04">&#7497;</term>
       <term name="volume" form="short">vol.</term>
-      <term name="page" form="short">
-        <single>p.</single>
-        <multiple>p.</multiple>
-      </term>
+      <term name="page" form="short">p.</term>
       <term name="translator" form="verb">trad.</term>
-      <term name="editor" form="short">
-        <single> (dir.)</single>
-        <multiple> (dir.)</multiple>
-      </term>
+      <term name="editor" form="short"> (dir.)</term>
     </terms>
   </locale>
   <macro name="author-or-editor">
